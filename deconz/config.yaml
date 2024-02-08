@@ -1,5 +1,5 @@
 ---
-version: 6.22.5
+version: 6.22.6
 slug: deconz
 name: deCONZ
 description: >-
@@ -19,7 +19,7 @@ discovery:
   - deconz
 gpio: true
 homeassistant: 0.91.2
-#image: homeassistant/{arch}-addon-deconz-custom
+image: homeassistant/{arch}-addon-deconz-custom
 ingress: true
 ingress_entry: ingress.html
 init: false
