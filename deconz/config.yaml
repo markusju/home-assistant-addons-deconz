@@ -1,5 +1,5 @@
 ---
-version: "1"
+version: "1.0"
 slug: deconz-custom
 name: deCONZ
 description: >-
@@ -19,7 +19,7 @@ discovery:
   - deconz
 gpio: true
 homeassistant: 0.91.2
-image: addon-deconz-custom
+image: markusju/addon-deconz-custom
 ingress: true
 ingress_entry: ingress.html
 init: false
